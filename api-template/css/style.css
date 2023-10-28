@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 25rem;
+  width: 25rem;
+}
+body{
+  background-color: crimson;
+  font-family: 'Sometype Mono', monospace; 
+  color: burlywood;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+h3{
+  font-size: 15px;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+}
+  
+span{
+  font-size: 9px;
+}
+.r{
+  font-size: 15px;
+}
+input{
+  background-color: rgb(75, 73, 73);
+  width: 8rem;
+}
+button{
+  background: linear-gradient(45deg, blue, purple, black);
+  color: white;
+  width: 11rem;
+  border-radius: 5px; 
+}
+.first{
+display: flex;
+flex-direction: column;
+}
+h1{
+  text-align: center;
+}
+.firstp{
+  text-align: center;
+}
+footer{
+  background-color: rgb(90, 86, 86);
+  color: white;
+  font-size: 12px;
+}
+.media{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  
+  body{
+      font-size: 14px;
+      background-color: #000000;;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
